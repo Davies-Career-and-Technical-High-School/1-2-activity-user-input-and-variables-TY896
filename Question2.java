@@ -3,19 +3,16 @@ import java.util.Scanner;
 
 
 class Question2 {
-    public static void main(String[] args) {
-   Scanner scan = new Scanner(System.in);
-    String name1;
-    String name2;
-    String name3;
-    System.out.println("give 3 names");
-    name1 = scan.nextLine();
-    name2 = scan.nextLine();
-    name3 = scan.nextLine();
-    System.out.println(  name1  + 
-    
-    " " + " " name2  + " "  + name3 );
-        /* Write your code here */
+      public static void main(String[] args) {
+     Scanner scan = new Scanner(System.in);
+     System.out.println(" hi there pal What is your name?");
+     System.out.println(" what are you?");
+        String name;
+        String Adjective;
+        name = scan.nextLine();
+        Adjective = scan.nextline();
+        System.out.println("Hello " + name + ". Nice to meet you");
+
 
     }
 }
